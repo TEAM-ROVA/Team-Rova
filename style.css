@@ -1,0 +1,107 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #f0f4f8;
+}
+
+/* Header Styling */
+header {
+    background-color: #001f3f;
+    color: #ffffff;
+    padding: 1em 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2em;
+}
+main section {
+    margin-bottom: 2em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #001f3f;
+}
+main h2 {
+    color: #ffffff;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li {
+    text-align: left;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #001f3f;
+    color: #ffffff;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Animation for Headings */
+h1, h2 {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Contact Details Styling */
+#contact ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#contact ul li {
+    margin: 0.5em 0;
+    font-size: 1.1em;
+}
+#contact a {
+    color: #001f3f;
+    text-decoration: none;
+}
+#contact a:hover {
+    text-decoration: underline;
+}
+
